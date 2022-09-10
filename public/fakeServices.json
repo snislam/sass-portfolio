@@ -1,0 +1,20 @@
+[
+    {
+        "_id":101,
+        "name": "Web Design",
+        "price": 199,
+        "description": "This is my gig. I am working here"
+    },
+    {
+        "_id":102,
+        "name": "Web Design",
+        "price": 199,
+        "description": "This is my gig. I am working here"
+    },
+    {
+        "_id":103,
+        "name": "Web Design",
+        "price": 199,
+        "description": "This is my gig. I am working here"
+    }
+]

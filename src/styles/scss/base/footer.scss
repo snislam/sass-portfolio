@@ -1,0 +1,12 @@
+@use '../variables/index' as style;
+
+#footer{
+    width: 100%;
+    padding: 20px 0;
+    background-color: style.$darkColor;
+
+    p{
+        text-align: center;
+        color: style.$lightSecondary;
+    }
+}

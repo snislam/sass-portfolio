@@ -1,0 +1,16 @@
+@use '../variables/index.scss' as style;
+
+@mixin btnPrimary {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    color: style.$lightSecondary;
+    background-color: style.$primaryColor;
+    font-size: 18px;
+    font-family: style.$bodyFont;
+    transition: 500ms;
+
+    &:hover{
+        background-color: style.$darkPrimary;
+    }
+}

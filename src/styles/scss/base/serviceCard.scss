@@ -1,0 +1,18 @@
+@use '../variables/index' as style;
+
+.service-card{
+    width: 100%/12 * 4;
+    margin: 0 5px;
+    padding: 60px 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: style.$lightPrimary;
+}
+
+@media screen and (max-width: 776px) {
+    .service-card{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+

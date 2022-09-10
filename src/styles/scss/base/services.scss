@@ -1,0 +1,29 @@
+@use '../variables/index' as style;
+
+#services{
+    max-width: 90%;
+    margin: 20px auto;
+
+    h2 {
+        font-family: style.$headingFont;
+        color: style.$darkColor;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .service-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 0;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    #services{
+        .service-item{
+            flex-direction: column;
+        }
+    }
+}
